@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build LÖVE",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}\\build\\buildLove.ps1"],
+      "group": "build"
+    },
+    {
+      "label": "Fuse LÖVE",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}\\build\\buildFuse.ps1"],
+      "group": "build"
+    }
+  ]
+}
