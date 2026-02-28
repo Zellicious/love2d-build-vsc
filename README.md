@@ -4,6 +4,8 @@ Easily build your love2d project without going outside vsc
 
 ## Intructions
 
-* Move/paste folder `build` and `.vscode/tasks.json` in your love2d project root
-* Thats it!
+* Clone this repo
+* Move/paste the `build` folder to the root directory of your love2d project
+* Inside `.vscode`, move/paste `tasks.json` to your `.vscode` directory
+* Thats it, use `Ctrl + Shift + B` to build your love2d project
 
